@@ -1,8 +1,8 @@
 
 
 
-def fizzbuzz() begin
-    for i in 1..101 do
+def fizzbuzz()
+    for i in 1..100 do
       if i % 15 == 0
         puts "fizzbuzz"
       elsif i % 3 == 0
@@ -14,3 +14,7 @@ def fizzbuzz() begin
       end 
     end
 end
+
+
+
+fizzbuzz()
